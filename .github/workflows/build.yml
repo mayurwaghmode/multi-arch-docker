@@ -24,7 +24,10 @@ jobs:
         with:
           username: ${{ secrets.QUAY_USERNAME }}
           password: ${{ secrets.QUAY_PASSWORD }}
+          registry: quay.io
+          repository: mayurwaghmode111/application-service
+          dockerfile: Dockerfile
+          tags: next
           context: .
           platforms: linux/amd64,linux/ppc64le
           push: true
-          tags: mayurwaghmode111/application-service:latest
