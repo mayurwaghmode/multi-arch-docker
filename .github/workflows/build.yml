@@ -30,5 +30,4 @@ jobs:
           registry: quay.io
           repository: mayurwaghmode111/application-service
           tags: quay.io/mayurwaghmode111/application-service:next
-          tag_with_sha: true
           push: true
