@@ -33,5 +33,5 @@ jobs:
           context: .
           platforms: linux/amd64,linux/ppc64le
           dockerfile: Dockerfile
-          tags: next
+          tags: mayurwaghmode111/application-service:next
           push: true
