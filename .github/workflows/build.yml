@@ -37,6 +37,6 @@ jobs:
           password: ${{ secrets.QUAY_PASSWORD }}
           registry: quay.io
           repository: mayurwaghmode111/application-service
-          tags: next
+          tags: quay.io/mayurwaghmode111/application-service:next
           tag_with_sha: true
           push: true
